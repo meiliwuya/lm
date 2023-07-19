@@ -1,7 +1,7 @@
 vless://3aff452d-511f-415d-97d1-133b4618711f@45.64.23.25:443?encryption=none&security=tls&sni=1238.papala.eu.org&type=ws&host=1238.papala.eu.org&path=%2f%3fed%3d2048#*HK-1
 vless://3aff452d-511f-415d-97d1-133b4618711f@103.118.40.26:443?encryption=none&security=tls&sni=1238.papala.eu.org&type=ws&host=1238.papala.eu.org&path=%2f%3fed%3d2048#*HK-2
 vless://3aff452d-511f-415d-97d1-133b4618711f@43.198.131.99:443?encryption=none&security=tls&sni=1238.papala.eu.org&type=ws&host=1238.papala.eu.org&path=%2f%3fed%3d2048#*HK-3
-vless://1fe54a27-95ba-4614-9a32-29cab5371539@8.219.170.223:80?encryption=none&security=none&sni=hello-world-v.gemova7827.workers.dev&type=ws&host=hello-world-v.gemova7827.workers.dev&path=%2f%3fed%3d2048#*SG-OK
+vless://1fe54a27-95ba-4614-9a32-29cab5371539@8.219.170.223:80?encryption=none&security=none&sni=hello-world-v.gemova7827.workers.dev&type=ws&host=hello-world-v.gemova7827.workers.dev&path=%2f%3fed%3d2048#*SG-OKk
 
 vless://3aff452d-511f-415d-97d1-133b4618711f@8.219.170.223:443?encryption=none&security=tls&sni=1238jp.papala.eu.org&type=ws&host=1238jp.papala.eu.org&path=%2f%3fed%3d2048#*SG-1
 vless://3aff452d-511f-415d-97d1-133b4618711f@129.154.210.82:443?encryption=none&security=tls&sni=1238jp.papala.eu.org&type=ws&host=1238jp.papala.eu.org&path=%2f%3fed%3d2048#*SG-2
