@@ -1,3 +1,8 @@
+vless://d342d11e-d424-4583-b36e-524ab1f0afa4@8.219.222.8:443?encryption=none&security=tls&type=ws&host=usw-xdir.onrender.com&path=*%2F#usw
+vless://d342d11e-d424-4583-b36e-524ab1f0afa4@8.222.162.31:443?encryption=none&security=tls&type=ws&host=usw-xdir.onrender.com&path=*%2F#usw-2
+vless://d342d11e-d424-4583-b36e-524ab1f0afa4@8.222.180.242:443?encryption=none&security=tls&type=ws&host=usw-xdir.onrender.com&path=*%2F#usw-3
+vless://d342d11e-d424-4583-b36e-524ab1f0afa4@8.219.222.8:443?encryption=none&security=tls&type=ws&host=fade.papala.eu.org&path=%2F#%2Afadeglitch
+vless://d342d11e-d424-4583-b36e-524ab1f0afa4@8.222.162.31:443?encryption=none&security=tls&type=ws&host=fade.papala.eu.org&path=%2F#%2Afadeglitch-2
 vless://04b21e1f-387d-4f63-8c7b-d10224ef81e2@8.219.170.223:443?encryption=none&security=tls&sni=papala2.pages.dev&type=ws&host=papala2.pages.dev&path=%2f%3fed%3d2048#papala2.pages.dev
 vless://04b21e1f-387d-4f63-8c7b-d10224ef81e2@129.154.210.82:443?encryption=none&security=tls&sni=papala2.pages.dev&type=ws&host=papala2.pages.dev&path=%2f%3fed%3d2048#papala2.pages.dev-clone
 
