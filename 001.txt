@@ -1,3 +1,10 @@
+vless://3aff452d-511f-415d-97d1-133b4618711f@cdn-all.xn--b6gac.eu.org:443?encryption=none&security=tls&sni=1238.papala.eu.org&type=ws&host=1238.papala.eu.org&path=%2f%3fed%3d2048#*ygkkk
+vless://3aff452d-511f-415d-97d1-133b4618711f@cdn.anycast.eu.org:443?encryption=none&security=tls&sni=1238.papala.eu.org&type=ws&host=1238.papala.eu.org&path=%2f%3fed%3d2048#*ygkkk
+vless://3aff452d-511f-415d-97d1-133b4618711f@cdn-b100.xn--b6gac.eu.org:443?encryption=none&security=tls&sni=1238.papala.eu.org&type=ws&host=1238.papala.eu.org&path=%2f%3fed%3d2048#*ygkkk
+vless://3aff452d-511f-415d-97d1-133b4618711f@malaysia.com:443?encryption=none&security=tls&sni=1238.papala.eu.org&type=ws&host=1238.papala.eu.org&path=%2f%3fed%3d2048#*ygkkk
+vless://3aff452d-511f-415d-97d1-133b4618711f@time.is:443?encryption=none&security=tls&sni=1238.papala.eu.org&type=ws&host=1238.papala.eu.org&path=%2f%3fed%3d2048#*ygkkk
+vless://3aff452d-511f-415d-97d1-133b4618711f@ip.sb:443?encryption=none&security=tls&sni=1238.papala.eu.org&type=ws&host=1238.papala.eu.org&path=%2f%3fed%3d2048#*ygkkk
+
 vless://d342d11e-d424-4583-b36e-524ab1f0afa4@8.219.222.8:443?encryption=none&security=tls&type=ws&host=usw-xdir.onrender.com&path=*%2F#usw
 vless://d342d11e-d424-4583-b36e-524ab1f0afa4@8.222.162.31:443?encryption=none&security=tls&type=ws&host=usw-xdir.onrender.com&path=*%2F#usw-2
 vless://d342d11e-d424-4583-b36e-524ab1f0afa4@8.222.180.242:443?encryption=none&security=tls&type=ws&host=usw-xdir.onrender.com&path=*%2F#usw-3
