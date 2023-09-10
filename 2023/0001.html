@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>随机跳转</title>
+    <script>
+        // 获取当前页面的URL
+        var currentUrl = window.location.href;
+
+        // 列出同一路径下的所有HTML文件
+        var htmlFiles = [
+            'page1.html',
+            'page2.html',
+            'page3.html'
+            // 在这里添加更多的HTML文件
+        ];
+
+        // 从HTML文件列表中排除当前页面的URL
+        var filteredFiles = htmlFiles.filter(function(file) {
+            return file !== currentUrl;
+        });
+
+        // 随机选择一个HTML文件
+        var randomIndex = Math.floor(Math.random() * filteredFiles.length);
+        var randomHtmlFile = filteredFiles[randomIndex];
+
+        // 跳转到随机选择的HTML文件
+        window.location.href = randomHtmlFile;
+    </script>
+</head>
+<body>
+    <p>正在随机跳转到其他页面...</p>
+</body>
+</html>
