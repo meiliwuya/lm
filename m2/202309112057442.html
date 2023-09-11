@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="utf-8">
+	    <meta name="referrer" content="never">
+    <title>劲爆DJ_直(｡･∀･)ﾉﾞ嗨</title>
+    <meta name="author" content="iami">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="HandheldFriendly" content="true">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+<div class="content-container">
+     <script type="text/javascript" src="toubu.js"></script>
+	  <div id="video-container">
+    <video id="video-player" controls height="210" poster="http://1.papala.eu.org/2023/202309102016876.jpg">
+      <source src="http://video-1251586368.file.myqcloud.com/tencent/82f48e75333745f98b741a0ee32740c3/1693575554026-bz0kk82spub.mp4?1smp4" type="video/mp4">
+      <!-- 添加更多视频源 -->
+    </video>
+  </div>
+<br>
+  <button id="prev-button">I<<<</button>
+   <b><font style="font-size: 8px; color: #666666">1.2.3. ...</font></b>
+  <button id="next-button">>>>I</button>
+  <img src="http://p0.meituan.net/dptrust/d1ff56b5b4dcb6343d07344ee4270508121.png" width="40" height="1">
+  <a href="/0069.html" target="_blank"> <b><font style="font-size: 15px; color: #666666">下一页>>></font></b></a>
+<hr>
+  <script>
+    var videoPlayer = document.getElementById('video-player');
+    var videoList = [
+    'http://video-1251586368.file.myqcloud.com/tencent/82f48e75333745f98b741a0ee32740c3/1693575554026-bz0kk82spub.mp4?1smp4',  
+    
+    'https://video-1251586368.file.myqcloud.com/tencent/0fdfb0c6497949f393be703d9a6aa279/1694336194928-3hynpn1267d.mp4',
+    'https://video-1251586368.file.myqcloud.com/tencent/0fdfb0c6497949f393be703d9a6aa279/1694336245667-58g50ar6cqm.mp4',
+    'https://video-1251586368.file.myqcloud.com/tencent/0fdfb0c6497949f393be703d9a6aa279/1694336298774-57m8p6zlsug.mp4',
+    'https://video-1251586368.file.myqcloud.com/tencent/0fdfb0c6497949f393be703d9a6aa279/1694336343974-f3hmw9jilg.mp4'
+
+	]; // 视频列表
+    var currentVideoIndex = 0; // 当前视频索引
+
+    var prevButton = document.getElementById('prev-button');
+    var nextButton = document.getElementById('next-button');
+
+    prevButton.addEventListener('click', playPreviousVideo);
+    nextButton.addEventListener('click', playNextVideo);
+
+    videoPlayer.addEventListener('ended', playNextVideo);
+
+    function playNextVideo() {
+      currentVideoIndex++;
+      if (currentVideoIndex >= videoList.length) {
+        currentVideoIndex = 0; // 循环播放视频列表
+      }
+      videoPlayer.src = videoList[currentVideoIndex];
+      videoPlayer.load();
+      videoPlayer.play();
+    }
+
+    function playPreviousVideo() {
+      currentVideoIndex--;
+      if (currentVideoIndex < 0) {
+        currentVideoIndex = videoList.length - 1; // 循环播放视频列表
+      }
+      videoPlayer.src = videoList[currentVideoIndex];
+      videoPlayer.load();
+      videoPlayer.play();
+    }
+  </script>
+
+     <script type="text/javascript" src="gg.js"></script>
+<script type="text/javascript" src="main.js"></script>
+</body>
+<script type=" text/javascript" src="https://js.users.51.la/20590531.js">
+</script>
+</html>
